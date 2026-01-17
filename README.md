@@ -2,18 +2,53 @@
 
 A modern, full-stack workout tracking web application with intelligent recovery time estimation. Built with Next.js 14, TypeScript, MongoDB, and optimized for Vercel deployment.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vedeshskhatri/workout)
+[![PWA Ready](https://img.shields.io/badge/PWA-Ready-success)](https://web.dev/progressive-web-apps/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)](https://www.mongodb.com/)
+
+🚀 **[Live Demo](https://your-app-name.vercel.app)** | 📱 **[Install on Android](ANDROID_APP.md)** | 📚 **[Deployment Guide](DEPLOYMENT_READY.md)**
+
+## ⚡ Quick Start
+
+### Deploy to Vercel (5 minutes)
+1. Click **[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vedeshskhatri/workout)**
+2. Add environment variables (MongoDB URI, AUTH_SECRET)
+3. Click Deploy!
+4. 🎉 Your app is live!
+
+### Install as Android App
+1. Visit your deployed app on Android Chrome
+2. Tap menu (⋮) → "Add to Home screen"
+3. App icon appears on home screen!
+4. Works like a native app 📱
+
+Full guides: [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) | [ANDROID_APP.md](ANDROID_APP.md)
+
 ## 🌟 Features
 
 ### Core Features
+
+#### 📱 Progressive Web App (PWA)
+- **Install on Android** - Works like a native app
+- **Offline capable** - View workouts without internet
+- **Fast & responsive** - Optimized performance
+- **App shortcuts** - Quick access to main features
+- **No app store needed** - Install directly from browser
+- **Automatic updates** - Always latest version
 
 #### 📅 Alternating A/B Workout Plans
 - Two customizable workout plans that automatically alternate weekly
 - Week-based rotation using ISO week numbers
 - Automatic plan detection with manual override capability
 - Full exercise customization for each plan
+- **Pre-loaded 6-day split** (Monday-Saturday, 12 exercises/day)
 
 #### 📝 Comprehensive Workout Logging
-- Intuitive form interface for logging completed workouts
+- **Auto-populated exercises** - Based on current day and week
+- **One-click completion** - Check off exercises as you go
+- **Progress tracking** - X/12 exercises completed
 - Multiple exercises per workout session
 - Detailed set tracking: reps × weight × RPE
 - Overall intensity and sleep quality inputs
@@ -43,9 +78,17 @@ The system provides:
 - Estimated next training dates
 - Visual recovery status cards on dashboard
 
+#### 📅 Upcoming Workouts Schedule
+- **7-day preview** - See next week's workouts
+- **Auto-detects Week A/B** - Based on current date
+- **Muscle group badges** - Quick view of what you'll train
+- **Expandable details** - View all exercises with sets/reps
+- **Rest day indicators** - Sunday recovery days
+
 #### 🏠 Smart Dashboard
 - Current week plan suggestion
 - Recovery status for all muscle groups
+- Upcoming workouts overview
 - Quick stats: workouts and volume (weekly/monthly)
 - One-click workout starter
 
