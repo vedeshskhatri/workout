@@ -97,7 +97,7 @@ export async function POST(req: NextRequest) {
 
     const recoveryEstimates = estimateRecoveryFromWorkout(
       workoutData as any,
-      previousWorkouts.map((w) => ({
+      previousWorkouts.map((w: any) => ({
         ...w,
         _id: w._id.toString(),
         userId: w.userId.toString(),
